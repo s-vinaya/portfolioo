@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Professional Portfolio - Your Name" />
+    <title>Vinaya - Portfolio</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- AOS Library for scroll animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">
+        <span class="logo-text">software</span>
+        <span class="logo-dot"></span>
+      </div>
+      <div class="nav-links">
+        <a href="#home" class="nav-item active">
+          <i class="fas fa-home"></i>
+          <span>Home</span>
+        </a>
+        <a href="#about" class="nav-item">
+          <i class="fas fa-user"></i>
+          <span>About</span>
+        </a>
+        <a href="#projects" class="nav-item">
+          <i class="fas fa-code"></i>
+          <span>Projects</span>
+        </a>
+        <a href="#skills" class="nav-item">
+          <i class="fas fa-laptop-code"></i>
+          <span>Skills</span>
+        </a>
+        <a href="#contact" class="nav-item">
+          <i class="fas fa-envelope"></i>
+          <span>Contact</span>
+        </a>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-background"></div>
+      <div class="hero-content">
+        <div class="hero-text" data-aos="fade-right">
+          <h1>Hi, I'm <span class="highlight">Vinaya Sakepuram</span></h1>
+          <p class="tagline">Software Developer</p>
+          <p class="hero-description">
+            I build reliable products, solve problems, and enhance projects With
+            a focus on delivering innovative, high-quality solutions.
+          </p>
+          <div class="cta-buttons">
+            <a href="#projects" class="btn primary">View My Work</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">6+</span>
+              <span class="stat-label">Months Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">14+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image" data-aos="fade-left">
+          <img src="./assets/img.jpeg" alt="Developer Illustration" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-header" data-aos="fade-up">
+        <h2>About Me</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text" data-aos="fade-up">
+          <div class="about-intro">
+            <span class="highlight-text"
+              >Hello! I'm a Computer Science Engineer</span
+            >
+            <p>
+              As a passionate Computer Science and Engineering student, I
+              specialize in Java Full Stack Development with a strong foundation
+              in data structures, algorithms, and software design principles.
+              Currently pursuing my Bachelor's in Computer Science and
+              Engineering, I combine academic excellence with practical
+              development experience.
+            </p>
+          </div>
+
+          <div class="experience-grid">
+            <div class="experience-item" data-aos="fade-right">
+              <i class="fas fa-laptop-code"></i>
+              <h3>Technical Skills</h3>
+              <p>
+                Proficient in Java, Spring Boot, React, and modern web
+                technologies.
+              </p>
+            </div>
+            <div class="experience-item" data-aos="fade-left">
+              <i class="fas fa-brain"></i>
+              <h3>Problem Solving</h3>
+              <p>
+                Strong analytical and algorithmic thinking with DSA expertise.
+              </p>
+            </div>
+          </div>
+
+          <div class="education-timeline" data-aos="fade-up">
+            <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>B.Tech in Computer Science</h4>
+                <p>Jawaharlal Nehru Technological University | 2021 - 2025</p>
+                <ul>
+                  <li>CGPA: 8.5/10</li>
+                  <li>Class Representative</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="tech-stack" data-aos="fade-up">
+            <h3><i class="fas fa-layer-group"></i> Technical Focus Areas</h3>
+            <div class="tech-grid">
+              <div class="tech-row">
+                <div class="tech-item">
+                  <div class="tech-header">
+                    <i class="fas fa-server"></i>
+                    <h4>Backend Development</h4>
+                  </div>
+                  <div class="tech-list">
+                    <span class="tech-pill">Java & Spring Boot</span>
+                    <span class="tech-pill">RESTful APIs</span>
+                  </div>
+                </div>
+
+                <div class="tech-item">
+                  <div class="tech-header">
+                    <i class="fas fa-code"></i>
+                    <h4>Frontend Development</h4>
+                  </div>
+                  <div class="tech-list">
+                    <span class="tech-pill">React.js</span>
+                    <span class="tech-pill">HTML5/CSS3</span>
+                    <span class="tech-pill">JavaScript</span>
+                  </div>
+                </div>
+
+                <div class="tech-item">
+                  <div class="tech-header">
+                    <i class="fas fa-database"></i>
+                    <h4>Database Management</h4>
+                  </div>
+                  <div class="tech-list">
+                    <span class="tech-pill">MySQL</span>
+                    <span class="tech-pill">Oracle</span>
+                    <span class="tech-pill">MongoDB</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="career-objective" data-aos="fade-up">
+            <h3>Career Objective</h3>
+            <p>
+              Aspiring to secure a challenging position as a Software Developer
+              where I can leverage my strong foundation in computer science
+              principles and full-stack development skills. Eager to contribute
+              to innovative projects while continuously learning and growing in
+              the dynamic tech industry.
+            </p>
+          </div>
+
+          <div class="cta-container" data-aos="fade-up">
+            <a href="./assets/Vinayaa_Resumee.pdf" class="btn primary" download>
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+            <a href="#contact" class="btn secondary">
+              <i class="fas fa-envelope"></i> Get in Touch
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Featured Projects</h2>
+        <p class="section-subtitle">
+          Showcasing my best work in software development
+        </p>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project Card 1 -->
+        <div class="project-card" data-aos="fade-up">
+          <div class="project-image">
+            <img
+              src="./assets/images/education.jpg"
+              alt="E-Learning Platform"
+            />
+            <div class="project-overlay">
+              <div class="project-buttons">
+                <a href="#" class="project-btn" target="_blank">
+                  <i class="fab fa-github"></i> View Code
+                </a>
+                <a href="#" class="project-btn" target="_blank">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>E-Learning Management System</h3>
+            <div class="project-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">React</span>
+              <span class="tag">MySQL</span>
+            </div>
+            <p class="project-description">
+              A comprehensive learning platform featuring course management,
+              real-time progress tracking, and interactive learning materials.
+            </p>
+            <div class="project-features">
+              <h4>Key Features:</h4>
+              <ul>
+                <li>
+                  <i class="fas fa-check"></i> User Authentication &
+                  Authorization
+                </li>
+                <li><i class="fas fa-check"></i> Course Management System</li>
+                <li>
+                  <i class="fas fa-check"></i> Real-time Progress Tracking
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-image">
+            <img src="./assets/images/airport.png" alt="Banking System" />
+            <div class="project-overlay">
+              <div class="project-buttons">
+                <a href="#" class="project-btn" target="_blank">
+                  <i class="fab fa-github"></i> View Code
+                </a>
+                <a href="#" class="project-btn" target="_blank">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Online Flight Reservation System</h3>
+            <div class="project-tags">
+              <span class="tag">Spring Boot</span>
+              <span class="tag">Microservices</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Docker</span>
+            </div>
+            <p class="project-description">
+              Developed a comprehensive Online Flight Reservation System to
+              steamline the process of booking flights.
+            </p>
+            <div class="project-features">
+              <h4>Key Features:</h4>
+              <ul>
+                <li><i class="fas fa-check"></i> Flight search and Booking</li>
+                <li>
+                  <i class="fas fa-check"></i> Realtime claim status updates
+                </li>
+                <li><i class="fas fa-check"></i> RESTful APIs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <h2>Skills & Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-card" data-aos="zoom-in">
+          <i class="fab fa-html5 fa-3x"></i>
+          <h3>HTML5</h3>
+          <div class="skill-level">Advanced</div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+          <i class="fab fa-css3-alt fa-3x"></i>
+          <h3>CSS3</h3>
+          <div class="skill-level">Advanced</div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+          <i class="fab fa-js fa-3x"></i>
+          <h3>JavaScript</h3>
+          <div class="skill-level">Advanced</div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+          <i class="fab fa-react fa-3x"></i>
+          <h3>React</h3>
+          <div class="skill-level">Intermediate</div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+          <i class="fab fa-node fa-3x"></i>
+          <h3>Java</h3>
+          <div class="skill-level">Intermediate</div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="500">
+          <i class="fas fa-database fa-3x"></i>
+          <h3>SpringBoot</h3>
+          <div class="skill-level">Intermediate</div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="600">
+          <i class="fab fa-python fa-3x"></i>
+          <h3>Python</h3>
+          <div class="skill-level">Intermediate</div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="700">
+          <i class="fab fa-java fa-3x"></i>
+          <h3>Java</h3>
+          <div class="skill-level">Advanced</div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="800">
+          <i class="fas fa-leaf fa-3x"></i>
+          <h3>Spring Boot</h3>
+          <div class="skill-level">Intermediate</div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="900">
+          <i class="fas fa-database fa-3x"></i>
+          <h3>Hibernate</h3>
+          <div class="skill-level">Intermediate</div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="1000">
+          <i class="fas fa-database fa-3x"></i>
+          <h3>MySQL</h3>
+          <div class="skill-level">Advanced</div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="1100">
+          <i class="fas fa-database fa-3x"></i>
+          <h3>Oracle</h3>
+          <div class="skill-level">Intermediate</div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="1200">
+          <i class="fas fa-robot fa-3x"></i>
+          <h3>Artificial Intelligence</h3>
+          <div class="skill-level">Intermediate</div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="1300">
+          <i class="fas fa-brain fa-3x"></i>
+          <h3>Machine Learning</h3>
+          <div class="skill-level">Intermediate</div>
+        </div>
+      </div>
+      
+    </div>
+      
+    </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Get In Touch</h2>
+        <p class="section-subtitle">
+          Let's discuss your project or just say hello!
+        </p>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="contact-container">
+        <!-- Form Container - Left Side -->
+        <div class="contact-form-container" data-aos="fade-right">
+          <form class="contact-form">
+            <div class="form-header">
+              <h3>Send Message</h3>
+              <p>Fill out the form below and I'll get back to you.</p>
+            </div>
+
+            <div class="input-group">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="John Doe"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="john@example.com"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                required
+                placeholder="Project Discussion"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                placeholder="Your message here..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- Contact Info - Right Side -->
+        <div class="contact-info" data-aos="fade-left">
+          <div class="info-cards">
+            <div class="info-card">
+              <div class="card-icon pulse">
+                <i class="fas fa-envelope-open-text"></i>
+              </div>
+              <div class="card-content">
+                <h3>Email Me</h3>
+                <a
+                  href="mailto:your.email@example.com"
+                  class="contact-link shine-effect"
+                >
+                  your.email@example.com
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-icon pulse">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="card-content">
+                <h3>Call Me</h3>
+                <a href="tel:+1234567890" class="contact-link shine-effect">
+                  +1 234 567 8900
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-icon pulse">
+                <i class="fas fa-map-marked-alt"></i>
+              </div>
+              <div class="card-content">
+                <h3>Location</h3>
+                <p class="location-text">
+                  <span>Bengaluru,</span>
+                  <span>Karnataka, India</span>
+                  <i class="fas fa-map-pin bounce"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="social-container">
+              <h3><span class="highlight">Connect</span> With Me</h3>
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/vinaya-sakepuram-software-developer/"
+                  class="social-link linkedin hover-up"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://github.com/s-vinaya?tab=repositories"
+                  class="social-link github hover-up"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://leetcode.com/u/Sakepuram_Vinaya/"
+                  class="social-link leetcode hover-up"
+                  target="_blank"
+                  ><i class="fas fa-code"></i>
+
+                  <span></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
